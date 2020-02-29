@@ -1,7 +1,6 @@
 package com.github.watchyouss.instDataProcessor.unit.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.watchyouss.instDataProcessor.controller.PersonSearchController;
 import com.github.watchyouss.instDataProcessor.dto.Person;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
