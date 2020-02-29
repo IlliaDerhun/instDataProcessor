@@ -1,0 +1,32 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.2.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+
+group 'com.github.watchyouss.instDataProcessor'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+    testLogging.showStandardStreams(true)
+}
+
+wrapper {
+    gradleVersion = '6.2'
+}
+
+dependencies {
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+        compile group: 'org.junit', name: 'junit5-engine', version: '5.0.0-ALPHA'
+        testCompile group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
+    }
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
