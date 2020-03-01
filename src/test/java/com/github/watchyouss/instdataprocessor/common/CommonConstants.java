@@ -1,4 +1,4 @@
-package com.github.watchyouss.instDataProcessor.common;
+package com.github.watchyouss.instdataprocessor.common;
 
 public enum CommonConstants {
     LOCALHOST_URL("http://localhost:");
