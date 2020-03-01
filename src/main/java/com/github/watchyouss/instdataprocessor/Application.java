@@ -1,4 +1,4 @@
-package com.github.watchyouss.instDataProcessor;
+package com.github.watchyouss.instdataprocessor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
