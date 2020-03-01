@@ -1,4 +1,4 @@
-package com.github.watchyouss.instDataProcessor.dto;
+package com.github.watchyouss.instdataprocessor.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 
